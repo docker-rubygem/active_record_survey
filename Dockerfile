@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.35
+ENV VERSION=0.1.36
 
 RUN gem install active_record_survey --version ${VERSION} --no-format-exec
 
